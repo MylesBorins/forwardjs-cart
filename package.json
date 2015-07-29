@@ -1,9 +1,9 @@
 {
-  "name": "txjs-cart",
-  "version": "1.0.0",
+  "name": "forwardjs-cart",
+  "version": "0.0.0",
   "main": "index.js",
   "bin": {
-    "txjs": "./index.js"
+    "forwardjs": "./index.js"
   },
   "dependencies": {
     "request-promise": "^0.4.2"
@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thealphanerd/txjs-cart.git"
+    "url": "https://github.com/thealphanerd/ForwardJS-cart.git"
   },
   "authors": ["Sam Saccone", "Myles Borins"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thealphanerd/txjs-cart/issues"
+    "url": "https://github.com/thealphanerd/ForwardJS-cart/issues"
   },
-  "homepage": "https://2015.texasjavascript.com/"
+  "homepage": "http://forwardjs.com/"
 }

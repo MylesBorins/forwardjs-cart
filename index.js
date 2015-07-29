@@ -4,12 +4,12 @@ var request = require('request-promise');
 var track = 1;
 var sorryMsg = 'Sorry, nothing to stream for now...';
 
-console.log("✨ Streaming TXJS 2015✨ ");
+console.log("✨ Streaming ForwardJS 3✨ ");
 
 var last = null;
 
 (function tick() {
-  request.get('http://www.streamtext.net/text-data.ashx?event=TXJS15&last=' + last + '&language=en')
+  request.get('http://www.streamtext.net/text-data.ashx?event=forward3&last=' + last + '&language=en')
   .then(function(v) {
       v = JSON.parse(v);
       last = v.lastPosition;
